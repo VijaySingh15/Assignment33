@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ques3.css">
+    <title>Create form with back button</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <label for="name">FullName</label>
+            <div>
+                FirstName:<input type="text" name="firstName" required> LastName:<input type="text" name="lastName" required>
+            </div>
+            <br>
+            <label for="email">Email</label>
+            <div>
+                <input type="email" name="myEmail" required>
+            </div>
+            <br>
+            <label for="number">Phone Number</label>
+            <div>
+                <input type="number" name="myNumber" required>
+            </div>
+            <br>
+            <div>
+                Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            </div>
+            <br>
+            <label for="myText">What is your idea...?</label>
+            <div>
+                <textarea name="myText" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="submit Now">
+                <input type="button" value="← Back" onclick="history.back()">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

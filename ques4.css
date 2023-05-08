@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    width: 380px;
+    height: 500px;
+    justify-content: center;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+.top{
+    display: flex;
+    width: 380px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfe6e9;
+
+}
+.top span{
+    margin-left: 60px;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+#name{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 6px;
+}
+#card-number{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 6px;
+}
+#expiry{
+    width: 120px;
+    height: 20px;
+    margin-bottom: 6px;
+    margin-top: 5px;
+}
+.cvv{
+    margin-left: 25px;
+    height: 20px;
+}
+#cvv{
+    height: 20px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+}
+#email{
+    width: 200px;
+    height: 20px;
+}
+
+#country{
+    margin-top: 10px;
+    height: 20px;
+}
+input[type="submit"] {
+    display: block;
+    width: 250px;
+    margin:0 auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="text"],[type="password"],[type="email"],select{
+    margin-left: 10px;
+    border: 1px solid #ccc;
+}
+label{
+    margin-left: 10px;
+}

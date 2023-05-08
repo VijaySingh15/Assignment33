@@ -1,0 +1,64 @@
+<!--4. Design a payment page, use a standard layout, that you have experienced over all
+websites.
+a. Use Proper color combination
+b. Give user all the payment options
+c. Error message and the text should please user to keep going.
+d. Avoid negative sentiment. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment page layout</title>
+    <link rel="stylesheet" href="ques4.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form class="form">
+        <div class="top">
+          <h2>Payment Details</h2>
+          <span><input type="checkbox" />Remember me</span>
+        </div>
+        <div class="middle">
+        <label for="name">Name on Card</label>
+        <input type="text" id="name" name="name" required />
+        <label for="card-number">Card Number</label>
+        <input
+          type="text"
+          id="card-number"
+          name="card-number"
+          pattern="[0-9]{16}"
+          placeholder="**** **** **** ****"
+          required
+        />
+        <div class="middle2">
+          <label for="expiry">Expiry Date</label>
+          <input
+            type="text"
+            id="expiry"
+            name="expiry"
+            placeholder="MM / YY"
+            pattern="(0[1-9]|1[0-2]) \/ ([0-9]{2})"
+            required
+          />
+          <label class="cvv" for="cvv">CVV</label>
+          <input type="password" id="cvv" name="cvv" size="3" pattern="[0-9]{3}" placeholder="***" required />
+        </div>
+    </div>
+    <div class="email">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+    </div>
+        <label for="country" >Country</label>
+        <select id="country" name="country">
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">UK</option>
+          <option value="India">India</option>
+        </select>
+        <input type="submit" value="Make Payment" />
+      </form>
+    </div>
+  </body>
+</html>

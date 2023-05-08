@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 350px;
+    height: 395px;
+    border: 1px solid black;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #c8d6e5;
+}
+
+.tittle{
+    height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.middle{
+    width: 350px;
+    height: 32px;
+    background-color: #f0f0f0;
+
+}
+img{
+    margin-left: 3px;
+    height: 10px;
+    width: 10px;
+}
+.discrip{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.para{
+    margin-top: 5px;
+    margin-left: 18px;
+    font-family: sans-serif;
+}

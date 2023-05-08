@@ -1,0 +1,130 @@
+<!--5. Design a filter bar for clothing website. Things you have to keep in mind:
+a. Use proper color combinations
+b. Predict all the filters, that customer would be expecting from you.-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Filter mode in flipkart</title>
+    <link rel="stylesheet" href="ques5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="filter">
+        <span>Filters</span>
+      </div>
+      <div class="categories">
+        <span>CATEGORIES</span>
+        <a class="item1" title="Home & Kitchen"
+          ><i class="fas fa-chevron-left"></i> Home & Kitchen</a
+        >
+        <a class="item2" title="Home Appliances"
+          ><i class="fas fa-chevron-left"></i> Home Appliances</a
+        >
+        <a class="Water Purifier"> Water purifier</a>
+      </div>
+    
+      <div class="price">
+        <span>PRICE</span>
+        <div class="slide">
+          <div id="shadow">
+            <div class="shadow2">
+            <div class="shadow" style="height: 12.5px;width: 36.4683px;"></div>
+            <div class="shadow" style="height: 12.5px;width: 36.4683px;"></div>
+            <div class="shadow" style="height: 21.5px;width: 36.4683px;"></div>
+            <div class="shadow" style="height: 25.5px;width: 36.4683px;"></div>
+            <div class="shadow" style="height: 25.5px;width: 36.4683px;"></div>
+            <div class="shadow" style="height: 9.5px;width: 36.4683px;"></div>
+            </div>
+        </div>
+            <div class="circle1"></div>
+            <div class="range"></div>
+            <div class="circle2"></div>
+          <div class="dots">
+            <div class="dots1">.</div>
+            <div class="dots2">.</div>
+            <div class="dots3">.</div>
+            <div class="dots4">.</div>
+            <div class="dots5">.</div>
+            <div class="dots6">.</div>
+            <div class="dots7">.</div>
+          </div>
+        </div>
+        <div class="_a">
+          <select class="Minimum">
+            <option>Min</option>
+            <option>₹500</option>
+            <option>₹1000</option>
+            <option>₹2000</option>
+            <option>₹700</option>
+            <option>₹11000</option>
+            <option>₹15000</option>
+          </select>
+          <div class="to">to</div>
+          <select class="maximum">
+            <option>Maximum</option>
+            <option>₹5000</option>
+            <option>₹6000</option>
+            <option>₹16000</option>
+            <option>₹25000+</option>
+          </select>
+        </div>
+    
+      <section class="assured">
+        <label class="assured1">
+            <input type="checkbox" class="assured2">
+        <div class="assured-logo">
+            <div class="assured-logo1">
+                <img src="images2/flipkart-logo.jpg" alt="image not found">
+            </div>
+        </div>
+        </label>
+        <div class="question">
+            <span class="question-mark">?</span>
+        </div>
+      </section>
+
+      <section id="brand">
+        <span class="brand1">BRAND</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+
+      <section id="purification">
+        <span class="purification1">PURIFICATION</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+
+      <section id="capacity">
+        <span class="capacity1">CAPACITY</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+
+      <section id="type">
+        <span class="type1">TYPE</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+
+      <section id="ratings">
+        <span class="ratings1">RATINGS</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+
+      <section id="discount">
+        <span class="discount1">DISCOUNT</span>
+        <span class="angle-down"><i class="fa fa-angle-down"></i></span>
+      </section>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/704ff50790.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
